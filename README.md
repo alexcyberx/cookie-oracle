@@ -14,7 +14,7 @@ Cookie-Oracle ek powerful security tool hai jo session cookies ka analysis karta
 
 ### From Source
 ```bash
-git clone https://github.com/yourusername/cookie-oracle.git
+git clone https://github.com/alexcyberx/cookie-oracle.git
 cd cookie-oracle
 pip install -r requirements.txt
 ```
