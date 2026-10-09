@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m http.server 8000)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\alexcyber\\\\OneDrive\\\\Desktop\\\\alexcyberx  yt project\\\\.claude\")",
+      "Bash(kill %1)",
+      "Bash(pip --version)",
+      "Bash(python -m pip --version)",
+      "Bash(python -m pip install typer httpx beautifulsoup4 playwright pyyaml tabulate rich)",
+      "Bash(python -m cookie_oracle analyze --cookie \"sessionid=abc123; csrftoken=xyz789\" --domain instagram.com --privilege admin --output terminal)",
+      "Bash(python -m cookie_oracle batch --file test_cookies.txt --domain instagram.com --privilege admin)",
+      "Bash(python -m pip install fastapi uvicorn jinja2)",
+      "Bash(python -m cookie_oracle serve --host 127.0.0.1 --port 8000)",
+      "Bash(python -m pip install python-multipart)",
+      "Bash(sleep 3 && cat /dev/null)",
+      "Bash(python -c \"import urllib.request; print\\(urllib.request.urlopen\\('http://127.0.0.1:8000/api/docs'\\).read\\(\\).decode\\(\\)[:200]\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(grep -E '\\\\.\\(py|md|txt|keep\\)$')",
+      "Bash(python -m cookie_oracle analyze --cookie \"sessionid=test999; csrftoken=abc456\" --domain github.com --privilege admin --output json)",
+      "Bash(python -m cookie_oracle analyze --cookie \"sessionid=test123\" --domain github.com --privilege user --output terminal)",
+      "Bash(findstr -i \"\\\\.py\\\\.md\\\\.txt\")",
+      "Bash(python -m cookie_oracle analyze --cookie \"sessionid=abc123; csrftoken=xyz789\" --domain github.com --privilege admin --output json)",
+      "Bash(python -m cookie_oracle analyze --cookie \"sessionid=test123\" --domain github.com --privilege user)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)"
+    ]
+  }
+}
